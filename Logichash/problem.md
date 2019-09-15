@@ -1,7 +1,7 @@
 ---
 problemLabel: D
 problemName: 蘿姬雜湊大法
-problemId: logichash
+problemId: Logichash
 ---
 
 #
