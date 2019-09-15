@@ -1,0 +1,52 @@
+#@subtask samples
+#manual sample-01.in
+#manual sample-02.in
+#uses a manually generated test from manual directory
+
+# gen seed n k xl xr ail air
+
+@subtask ai0
+gen ai01 1000000 10 1 1000 0 0
+gen ai02 1000000 5 1 1000 0 0
+gen ai03 1000000 7 1 1000 0 0
+
+@subtask x0
+gen x01 1000000 5 0 0 1 1000
+gen x02 1000000 10 0 0 1 1000
+gen x03 1000000 3 0 0 1 1000
+
+@subtask k1
+gen k11 1000000 1 1 1000 1 1000
+gen k12 1000000 1 1 1000 1 1000
+gen k13 1000000 1 1 1000 1 1000
+
+@subtask aiequal
+gen aiequal1 1000000 4 1 1000 1 1
+gen aiequal2 1000000 5 1 1000 87 87
+gen aiequal3 1000000 8 1 1000 100 100
+gen aiequal4 1000000 9 1 1000 2 2
+gen aiequal5 1000000 10 1 1000 1000 1000
+
+@subtask nsmall
+gen nsmall1 10 5 1 1000 1 1000
+gen nsmall2 15 6 1 1000 1 1000
+gen nsmall3 8 10 1 1000 1 1000
+gen nsmall4 18 5 1 1000 1 1000
+gen nsmall5 7 7 1 1000 1 1000
+gen nsmall6 9 2 1 1000 1 1000
+gen nsmall7 18 3 1 1000 1 1000
+gen nsmall8 18 10 1 1000 1 1000
+gen nsmall9 18 5 1 1000 1 1000
+gen nsmall10 18 5 1 1000 1 1000
+
+@subtask normal
+gen normal1 1000000 5 1 1000 1 1000
+gen normal2 1000000 6 1 1000 1 1000
+gen normal3 1000000 7 1 1000 1 1000
+gen normal4 1000000 8 1 1000 1 1000
+gen normal5 123456 5 1 1000 1 1000
+gen normal6 1000000 5 1 1000 1 1000
+gen normal7 887987 5 1 1000 1 1000
+gen normal8 1000000 3 1 1000 1 1000
+gen normal9 1000000 5 1 1000 1 1000
+gen normal10 1000000 10 1 1000 1 1000
