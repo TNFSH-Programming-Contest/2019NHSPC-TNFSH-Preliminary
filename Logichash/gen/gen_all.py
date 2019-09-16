@@ -1,7 +1,7 @@
 import random
 
 tasks = [5, 5, 10, 10]
-tasks_maxn = [7, 10**3, 10**6, 1000000007]
+tasks_maxn = [4, 10, 10**6, 1000000007]
 
 for i, (cnt, maxn) in enumerate(zip(tasks, tasks_maxn)):
     for j in range(cnt):
