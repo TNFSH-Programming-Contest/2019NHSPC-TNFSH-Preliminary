@@ -18,12 +18,12 @@ problemId: Shortcut
 2. 標點符號的前一個字元沒有空白，而逗號和分號的後一個字元一定是空白。句號則為句子結尾，所以後面沒有空白。保證句子沒有多餘的空白，句尾一定會有句點。
 3. 從句子的最後面開始使用Ctrl+Backspace，每次會往前刪除，直到刪除了一整個單字(word)，也就是至單字的開頭，範例如下
 
-原句子 "Hi, nice to meet you."  
-第一次 "Hi, nice to meet "  
-第二次 "Hi, nice to "  
-第三次 "Hi, nice "  
-第四次 "Hi, "  
-第五次 ""
+原句子長的樣子 "Hi, nice to meet you."  
+按第一次快捷鍵 "Hi, nice to meet "  
+按第二次快捷鍵 "Hi, nice to "  
+按第三次快捷鍵 "Hi, nice "  
+按第四次快捷鍵 "Hi, "  
+按第五次快捷鍵 ""
 
 注意行尾可能有空白
 
